@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\bin\Debug\net9.0\Task_four.exe
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\bin\Debug\net9.0\Task_four.deps.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\bin\Debug\net9.0\Task_four.runtimeconfig.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\bin\Debug\net9.0\Task_four.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\bin\Debug\net9.0\Task_four.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.AssemblyInfo.cs
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.sourcelink.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\refint\Task_four.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\Task_four.genruntimeconfig.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_four\obj\Debug\net9.0\ref\Task_four.dll
