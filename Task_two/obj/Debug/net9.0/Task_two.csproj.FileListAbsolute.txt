@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\bin\Debug\net9.0\Task_two.exe
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\bin\Debug\net9.0\Task_two.deps.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\bin\Debug\net9.0\Task_two.runtimeconfig.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\bin\Debug\net9.0\Task_two.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\bin\Debug\net9.0\Task_two.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.AssemblyInfo.cs
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.sourcelink.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\refint\Task_two.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\Task_two.genruntimeconfig.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_two\obj\Debug\net9.0\ref\Task_two.dll

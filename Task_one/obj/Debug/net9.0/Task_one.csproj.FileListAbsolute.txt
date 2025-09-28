@@ -12,3 +12,4 @@ C:\Users\user\Desktop\sharp\sharp-tasks\Task_one\obj\Debug\net9.0\refint\Task_on
 C:\Users\user\Desktop\sharp\sharp-tasks\Task_one\obj\Debug\net9.0\Task_one.pdb
 C:\Users\user\Desktop\sharp\sharp-tasks\Task_one\obj\Debug\net9.0\Task_one.genruntimeconfig.cache
 C:\Users\user\Desktop\sharp\sharp-tasks\Task_one\obj\Debug\net9.0\ref\Task_one.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_one\obj\Debug\net9.0\Task_one.sourcelink.json
