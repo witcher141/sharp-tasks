@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\bin\Debug\net9.0\Task_five.exe
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\bin\Debug\net9.0\Task_five.deps.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\bin\Debug\net9.0\Task_five.runtimeconfig.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\bin\Debug\net9.0\Task_five.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\bin\Debug\net9.0\Task_five.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.AssemblyInfo.cs
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.sourcelink.json
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\refint\Task_five.dll
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.pdb
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\Task_five.genruntimeconfig.cache
+C:\Users\user\Desktop\sharp\sharp-tasks\Task_five\obj\Debug\net9.0\ref\Task_five.dll
