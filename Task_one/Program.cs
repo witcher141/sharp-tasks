@@ -5,10 +5,16 @@ class Program
     static void Main()
     {
         Console.Write("Введите температуру в °C: ");
-        double celsius = Convert.ToDouble(Console.ReadLine());
+        string input = Console.ReadLine();
 
-        double fahrenheit = celsius * 9 / 5 + 32;
-
-        Console.WriteLine($"{celsius}°C = {fahrenheit}°F");
+        if (double.TryParse(input, out double celsius))
+        {
+            double fahrenheit = celsius * 9 / 5 + 32;
+            Console.WriteLine($"{celsius}°C = {fahrenheit}°F");
+        }
+        else
+        {
+            Console.WriteLine("Ошибка: введите корректное число!");
+        }
     }
 }

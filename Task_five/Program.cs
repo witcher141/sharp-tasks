@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -7,8 +8,19 @@ class Program
         Console.WriteLine("Введите текст:");
         string text = Console.ReadLine();
 
-        string[] words = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        Console.WriteLine("Количество слов: " + words.Length);
+        char[] punctuation = { '.', ',', '!', '?', ':', ';', '"', '(', ')', '[', ']', '{', '}' };
+
+        string[] rawWords = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+        List<string> words = new List<string>();
+        foreach (string w in rawWords)
+        {
+            string clean = w.Trim(punctuation).ToLower();
+            if (clean.Length > 0)
+                words.Add(clean);
+        }
+
+        Console.WriteLine($"Количество слов: {words.Count}");
 
         int sentenceCount = 0;
         foreach (char c in text)
@@ -16,32 +28,35 @@ class Program
             if (c == '.' || c == '!' || c == '?')
                 sentenceCount++;
         }
-        Console.WriteLine("Количество предложений: " + sentenceCount);
+        Console.WriteLine($"Количество предложений: {sentenceCount}");
 
-        int maxCount = 0;
-        string frequentWord = "";
+        Dictionary<string, int> wordCount = new Dictionary<string, int>();
         foreach (string w in words)
         {
-            int count = 0;
-            foreach (string w2 in words)
+            if (wordCount.ContainsKey(w))
+                wordCount[w]++;
+            else
+                wordCount[w] = 1;
+        }
+
+        string mostFrequentWord = "";
+        int maxCount = 0;
+        foreach (var pair in wordCount)
+        {
+            if (pair.Value > maxCount)
             {
-                if (w.ToLower() == w2.ToLower())
-                    count++;
-            }
-            if (count > maxCount)
-            {
-                maxCount = count;
-                frequentWord = w.ToLower();
+                maxCount = pair.Value;
+                mostFrequentWord = pair.Key;
             }
         }
-        Console.WriteLine("Самое частое слово: " + frequentWord + " (" + maxCount + " раз)");
+        Console.WriteLine($"Самое частое слово: {mostFrequentWord} ({maxCount} раз)");
 
         int totalLength = 0;
         foreach (string w in words)
         {
             totalLength += w.Length;
         }
-        double avgLength = (double)totalLength / words.Length;
-        Console.WriteLine("Средняя длина слов: " + avgLength);
+        double avgLength = (double)totalLength / words.Count;
+        Console.WriteLine($"Средняя длина слов: {avgLength:F2}");
     }
 }

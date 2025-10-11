@@ -9,8 +9,13 @@ class Program
         while (true)
         {
             Console.Write("Введите число (0 для выхода): ");
-            int number = Convert.ToInt32(Console.ReadLine());
+            string input = Console.ReadLine();
 
+            if (!int.TryParse(input, out int number))
+            {
+                Console.WriteLine("Ошибка: введите корректное число!");
+                continue;
+            }
             if (number == 0)
             {
                 Console.WriteLine("Вы ввели 0. Программа завершена.");

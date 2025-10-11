@@ -6,13 +6,25 @@ class Program
     {
         Random random = new Random();
         int secret = random.Next(1, 11);
-        
+
         Console.WriteLine("Я загадал число от 1 до 10. Попробуйте угадать!");
 
         while (true)
         {
             Console.Write("Ваш вариант: ");
-            int guess = Convert.ToInt32(Console.ReadLine());
+            string input = Console.ReadLine();
+
+            if (!int.TryParse(input, out int guess))
+            {
+                Console.WriteLine("Ошибка: введите целое число!");
+                continue;
+            }
+
+            if (guess < 1 || guess > 10)
+            {
+                Console.WriteLine("Введите число от 1 до 10!");
+                continue;
+            }
 
             if (guess == secret)
             {
